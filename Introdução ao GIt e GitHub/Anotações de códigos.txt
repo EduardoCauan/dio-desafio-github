@@ -1,0 +1,6 @@
+# Códigos para o GIT
+
+1) git status - Mostra a situação do repositório comparando o local com o remoto.
+2) git commit -m "msg" - Envia do local para o remoto o repositório
+3) git add . - Readiciona e transforma os arquivos em **Staged** 
+4) git push origin main - Empurra o arquivo para o remoto definidamente.
