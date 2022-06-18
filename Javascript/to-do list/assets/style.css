@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(104, 211, 211);
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#title h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    background-color: violet;
+    border-radius: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+#task-instruction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-submit{
+    display: flex;
+
+    width: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.task-submit .box{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.task-submit #task-submiter{
+    background-color: rgb(127, 193, 238);
+    padding: 10px;
+    border: 1px transparent aquamarine;
+    border-radius: 10px;
+
+} 
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
